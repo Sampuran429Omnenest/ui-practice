@@ -5,10 +5,9 @@ import TopBar from "./components/TopBar"
 function App() {
   return(
     <div className="flex flex-col items-center justify-center gap-4">
+      <TopBar/>
       <ScripRow scripName="Reliance"/>
-          <ScripRow scripName="Reliance"/>
-          <CreateWatchlist/>
-          <TopBar/>
+      <CreateWatchlist/>
     </div>
   )
 }
