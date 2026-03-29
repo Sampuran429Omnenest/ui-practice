@@ -51,11 +51,11 @@ const TopBar:React.FC=()=>{
                     <span className="max-w-22 w-full max-h-12 h-full p-3 gap-2.5 font-semibold text-sm text-[#555555]">Positions</span>
                     <span className="max-w-22 w-full max-h-12 h-full p-3 gap-2.5 font-semibold text-sm text-[#555555]">Orders</span>
                 </div>
-                <div className="flex max-w-16 w-full max-h-12 h-full gap-5 pl-3">
+                <div className="flex max-w-16 w-full max-h-12 h-full gap-5 pl-3 py-4">
                     <button className="">
                         <img src={bell} alt="Bell" className="max-w-6 max-h-6"/>
                     </button>
-                    <div className=" max-w-6 w-full max-h-6 h-full mt-2.5 pt-0.5 pb-1 pl-0.5 gap-2.5 border rounded-3xl border-gray-200 text-[#0F62FE] text-xs items-center justify-center">
+                    <div className=" flex  max-w-6 w-full max-h-6 h-full   pb-1 pl-0.5 gap-2.5 border rounded-3xl border-gray-200 text-[#0F62FE] text-xs items-center justify-center">
                         MS
                     </div>
                 </div>
